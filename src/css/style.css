@@ -1,0 +1,19 @@
+/* base style */
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+}
+
+/* common styles */
+
+.full-width {
+    width: 100%;
+}
+
+.horizontal-list li {
+    display: inline-block;
+}
