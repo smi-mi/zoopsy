@@ -17,3 +17,7 @@ header {
 .horizontal-list li {
     display: inline-block;
 }
+
+.popup-menu {
+    display: none;
+}

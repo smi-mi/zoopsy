@@ -11,17 +11,45 @@
 <header>
     <h2><a>Zoopsy</a></h2>
     <ul class="horizontal-list">
-        <li>Услуги</li> <!-- TODO: add popup menu -->
+        <li id="popup-header">Услуги</li>
         <li>Помощь</li>
         <li>О нас</li>
     </ul>
+
+    <div class="popup-menu">
+        <div class="column">
+            <h3>Коррекция поведения</h3>
+            <ul>
+                <li>нечистоплотность</li>
+                <li>страхи</li>
+                <li>агрессия</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Тренировки</h3>
+            <ul>
+                <li>базовые команды</li>
+                <li>трюки</li>
+                <li>подготовка к выставкам</li>
+                <li>обучение тренеров</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Адаптация</h3>
+            <ul>
+                <li>котёнок/щенок в новом доме</li>
+                <li>животное из приюта</li>
+                <li>дикое животное в доме</li>
+            </ul>
+        </div>
+    </div>
 </header>
 
 <main>
     <section id="main-info">
         <h1>Zoopsy</h1>
         <h3>Услышьте своего питомца</h3>
-        <a>Подобрать специалиста</a>
+        <a class="call-to-action">Подобрать специалиста</a>
         <img class="full-width" src="../resources/main.jpg" alt="main">
     </section>
 
@@ -29,17 +57,28 @@
         <h3>Наши услуги</h3>
         <ul class="horizontal-list">
             <li>
-                <!-- TODO: content photo + description -->
+                <img src="../resources/cat-training.jpg" alt="cat-training">
+                <h4>Тренировки</h4>
+                <a>Подробнее</a>
             </li>
-            <!-- TODO: more items -->
+            <li>
+                <img src="../resources/dog-calm.jpg" alt="dog-calm">
+                <h4>Корректировка поведения</h4>
+                <a>Подробнее</a>
+            </li>
+            <li>
+                <img src="../resources/penguins.jpg" alt="penguins">
+                <h4>Адаптация</h4>
+                <a>Подробнее</a>
+            </li>
         </ul>
     </section>
 
     <section id="special-offer">
         <h3>Специальное предложение</h3>
-        <h4>Описание</h4>
-        <!-- TODO: photo -->
-        <a>Отправить заявку</a>
+        <h4>Курс лекций по тренингу собак бесплатно для новых клиентов!</h4>
+        <img src="../resources/dogs-training.jpeg" alt="gogs-training">
+        <a class="call-to-action">Отправить заявку</a>
     </section>
 
     <section id="reviews">
@@ -57,21 +96,31 @@
 
     <section id="best-offers">
         <h3>Лучшие предложения</h3>
-        <ul class="horizontal-list">
-            <li>
-                <!-- TODO: add photo and description, highlight second -->
-            </li>
-        </ul>
+        <div id="left-best"></div>
+        <div id="center-best"></div>
+        <div id="right-best"></div>
+        <!-- TODO: add photo and description, highlight center -->
     </section>
 
     <section id="feedback-form">
-        <h3>Осталисть вопросы?</h3>
-        <h4>Оставьте свой телефон, мы обязательно перезвоним</h4>
-        <!-- TODO: feedback form -->
+        <h3>Возникли вопросы?</h3>
+        <h4>Оставьте свой телефон, и мы вам перезвоним</h4>
+        <form>
+            <div id="form-name">
+                <label for="name">Имя</label>
+                <input id="name" type="text" placeholder="Имя"> <br>
+            </div>
+            <div id="form-phone">
+                <label for="phone">Телефон</label>
+                <input id="phone" type="tel" placeholder="+7(777)777-77-77"> <br>
+            </div>
+            <input type="submit" value="Отправить"> <br>
+        </form>
     </section>
 
     <section id="map">
-        <!-- TODO: map img full-width -->
+        <h3>Где нас найти</h3>
+        <img class="full-width" src="../resources/map.png" alt="map">
     </section>
 
 </main>
