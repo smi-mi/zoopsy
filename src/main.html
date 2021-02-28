@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Zoopsy</title>
-
     <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header>
-    <h2><a>Zoopsy</a></h2>
-    <ul class="horizontal-list">
-        <li id="popup-header">Услуги</li>
-        <li>Помощь</li>
-        <li>О нас</li>
-    </ul>
+    <div class="header">
+        <h2><a href="main.html">Zoopsy</a></h2>
+        <ul class="horizontal-list">
+            <li id="popup-header"><a>Услуги</a></li>
+            <li><a>Помощь</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
 
     <div class="popup-menu">
         <div class="column">
@@ -47,37 +51,37 @@
 
 <main>
     <section id="main-info">
-        <h1>Zoopsy</h1>
-        <h3>Услышьте своего питомца</h3>
-        <a class="call-to-action">Подобрать специалиста</a>
+        <div class="main-info-header">
+            <h1>Zoopsy</h1>
+            <h3>Услышьте своего питомца</h3>
+            <p>психологическая помощь питомцам и их хозяевам</p>
+            <a class="call-to-action">Подобрать специалиста</a>
+        </div>
         <img class="full-width" src="../resources/main.jpg" alt="main">
     </section>
 
     <section id="service-list">
         <h3>Наши услуги</h3>
-        <ul class="horizontal-list">
-            <li>
-                <img src="../resources/cat-training.jpg" alt="cat-training">
-                <h4>Тренировки</h4>
-                <a>Подробнее</a>
-            </li>
-            <li>
-                <img src="../resources/dog-calm.jpg" alt="dog-calm">
-                <h4>Корректировка поведения</h4>
-                <a>Подробнее</a>
-            </li>
-            <li>
-                <img src="../resources/penguins.jpg" alt="penguins">
-                <h4>Адаптация</h4>
-                <a>Подробнее</a>
-            </li>
-        </ul>
+        <div class="services">
+            <div class="service-item">
+                <img src="../resources/services/cat-training.jpg" alt="cat-training">
+                <h4><a>Тренировки</a></h4>
+            </div>
+            <div class="service-item">
+                <img src="../resources/services/dog-calm.jpg" alt="dog-calm">
+                <h4><a>Коррекция поведения</a></h4>
+            </div>
+            <div class="service-item">
+                <img src="../resources/services/penguins.jpg" alt="penguins">
+                <h4><a>Адаптация</a></h4>
+            </div>
+        </div>
     </section>
 
     <section id="special-offer">
         <h3>Специальное предложение</h3>
         <h4>Курс лекций по тренингу собак бесплатно для новых клиентов!</h4>
-        <img src="../resources/dogs-training.jpeg" alt="gogs-training">
+        <p><img src="../resources/dogs-training.jpeg" alt="dogs-training"></p>
         <a class="call-to-action">Отправить заявку</a>
     </section>
 
@@ -90,7 +94,7 @@
                 <h3>Имя и порода питомца</h3>
                 <p>Отзыв</p>
             </li>
-            <!-- TODO: more items and arrows -->
+            <!-- TODO: more items  -->
         </ul>
     </section>
 
