@@ -47,10 +47,16 @@ header li {
     border-bottom:0 none;
 }
 
+/* footer styles */
+
+footer {
+    padding-left: 50px;
+}
+
 /* main block styles */
 
 section {
-    padding: 10px;
+    padding: 50px 10px;
 }
 
 #main-info {
@@ -58,8 +64,9 @@ section {
 }
 
 main h3 {
-    margin: 0 0 10px;
-    font-size: 1.3em;
+    margin: 0 0 20px;
+    font-size: 1.8em;
+    font-weight: lighter;
     text-align: center;
 }
 
@@ -123,8 +130,101 @@ h1 {
 #special-offer a {
     margin-bottom: 5px;
 }
+.special-offer-text {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: maroon;
+}
+
+/* reviews styles */
+
+#reviews {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.review {
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    margin: 0 20px;
+}
+.review img {
+    float: left;
+    margin-right: 10px;
+}
+.reviewer h4 {
+    margin: 0.5em 0 0;
+}
+.review h5 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: lighter;
+    color: #715752;
+}
+.review p {
+    margin: 0;
+    padding: 0.5em 0;
+    clear: both;
+}
+#reviews-see-more {
+    display: inline-block;
+}
+
+/* best offers styles */
+
+.horizontal-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left-best, #center-best, #right-best {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+    text-align: center;
+}
+#center-best {
+    width: 300px;
+}
+#left-best, #right-best {
+    width: 200px;
+}
+
+/* feedback form styles */
+
+#feedback-form h4 {
+    text-align: center;
+}
+#feedback-form .call-to-action {
+    border: none;
+    display: block;
+    font-size: 0.8em;
+    margin: 1em auto 0;
+}
+#form-name, #form-phone {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
 
 /* common styles */
+
+form {
+    background-color: white;
+    width: 25%;
+    margin: 1em auto 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
 
 .call-to-action {
     padding: 10px;
@@ -135,6 +235,7 @@ h1 {
 }
 
 .full-width {
+    border-radius: unset;
     width: 100%;
 }
 
