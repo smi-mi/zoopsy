@@ -259,6 +259,11 @@ h1 {
 #contacts-section {
     padding-top: 100px;
 }
+#mailto-button {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
 #contacts-section h4 {
     text-align: center;
 }
@@ -323,12 +328,6 @@ img {
 
 #popup-menu {
     display: none;
-    /*display: flex;*/
-    /*justify-content: space-around;*/
-    /*background-color: #FEFDF9;*/
-}
-
-.column {
 }
 
 #popup-menu h3 {
@@ -347,6 +346,24 @@ img {
 a {
     color: #432A25;
     text-decoration-line: none;
+}
+
+#up-button {
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    background-color: #66B1CC;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 30px;
+}
+#up-button a {
+    color: white;
 }
 
 /* screen width adaptation */
