@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8667a075-f6bf-4b0a-a84b-8ea5b0dd3679" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/best-offers/crocodile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/best-offers/singing-parrot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/best-offers/walking-cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/reviews/pirate-parrot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/reviews/raccoon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/advantages-icons/flamingo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/advantages-icons/owl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/advantages-icons/panda.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/main-about.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
     </list>
@@ -83,7 +84,9 @@
       <workItem from="1614872289258" duration="4000" />
       <workItem from="1614948968621" duration="4534000" />
       <workItem from="1615017736724" duration="1524000" />
-      <workItem from="1615053519539" duration="4563000" />
+      <workItem from="1615053519539" duration="5125000" />
+      <workItem from="1615138972098" duration="2791000" />
+      <workItem from="1615210516955" duration="6214000" />
     </task>
     <task id="LOCAL-00001" summary="raw skeleton">
       <created>1612969332843</created>
@@ -106,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614546491859</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finished main page">
+      <created>1615058640253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615058640253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,21 +127,22 @@
     <MESSAGE value="raw skeleton" />
     <MESSAGE value="added almost all content" />
     <MESSAGE value="styled header main-info and services" />
-    <option name="LAST_COMMIT_MESSAGE" value="styled header main-info and services" />
+    <MESSAGE value="finished main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished main page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1614546490237">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1615058638654">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1614546490237" />
-    <state x="111" y="3" key="SettingsEditor" timestamp="1615053897895">
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1615058638654" />
+    <state x="111" y="0" key="SettingsEditor" timestamp="1615217180947">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="111" y="3" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1615053897895" />
-    <state x="306" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1615053524470">
+    <state x="111" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1615217180947" />
+    <state x="306" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1615210517392">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="306" y="185" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1615053524470" />
+    <state x="306" y="185" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1615210517392" />
     <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1614534593755">
       <screen x="0" y="0" width="1218" height="720" />
     </state>

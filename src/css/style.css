@@ -208,6 +208,49 @@ h1 {
     margin-bottom: 0.5em;
 }
 
+/* about page styles */
+
+#about {
+    color: #715752;
+}
+#brief {
+    padding: 3em 0 0;
+    background-color: #FEFDF9;
+    display: flex;
+    align-items: center;
+}
+#brief img {
+    border-radius: unset;
+    width: 50%;
+}
+#brief-text {
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+#advantages {
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#advantages div {
+    text-align: center;
+}
+#advantages img {
+    width: 64px;
+}
+
+#stories {
+    background-color: #FEFDF9;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#stories p {
+    padding: 0 10px 10px;
+    text-align: center;
+}
+
 /* common styles */
 
 form {
@@ -248,7 +291,7 @@ img {
     display: inline-block;
 }
 
-.popup-menu {
+#popup-menu {
     display: none;
     /*display: flex;*/
     /*justify-content: space-around;*/
@@ -258,16 +301,16 @@ img {
 .column {
 }
 
-.popup-menu h3 {
+#popup-menu h3 {
     margin-bottom: 0.5em;
 }
 
-.popup-menu ul {
+#popup-menu ul {
     margin: 0 0 0.5em;
     padding: 0;
 }
 
-.popup-menu li {
+#popup-menu li {
     list-style-type: none;
 }
 
