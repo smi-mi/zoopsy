@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8667a075-f6bf-4b0a-a84b-8ea5b0dd3679" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/advantages-icons/flamingo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/advantages-icons/owl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/advantages-icons/panda.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/main-about.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
@@ -86,7 +82,7 @@
       <workItem from="1615017736724" duration="1524000" />
       <workItem from="1615053519539" duration="5125000" />
       <workItem from="1615138972098" duration="2791000" />
-      <workItem from="1615210516955" duration="6214000" />
+      <workItem from="1615210516955" duration="7969000" />
     </task>
     <task id="LOCAL-00001" summary="raw skeleton">
       <created>1612969332843</created>
@@ -116,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615058640253</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished about page">
+      <created>1615230535269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615230535269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,13 +131,14 @@
     <MESSAGE value="added almost all content" />
     <MESSAGE value="styled header main-info and services" />
     <MESSAGE value="finished main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished main page" />
+    <MESSAGE value="finished about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished about page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1615058638654">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1615230533992">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1615058638654" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1615230533992" />
     <state x="111" y="0" key="SettingsEditor" timestamp="1615217180947">
       <screen x="0" y="0" width="1218" height="720" />
     </state>

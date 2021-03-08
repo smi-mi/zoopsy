@@ -16,7 +16,7 @@
             <li id="popup-header"><a>Услуги</a></li>
             <li><a>Помощь</a></li>
             <li><a href="about.html">О нас</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
+            <li><a id="contacts" href="contacts.html">Контакты</a></li>
         </ul>
     </div>
 
@@ -49,7 +49,38 @@
     </div>
 </header>
 
-<main></main>
+<main>
+    <section id="contacts-section">
+        <h3>Возникли вопросы?</h3>
+        <div id="contacts-container">
+            <div>
+                <h4>Наши Контакты</h4>
+                <ul>
+                    <li>+7 (921) 777 8137</li>
+                    <li>г. Санкт-Петербург, ул. Инженерная, д. 2</li>
+                </ul>
+            </div>
+            <div id="contacts-form">
+                <h4>Оставьте свой телефон, и мы вам перезвоним</h4>
+                <form>
+                    <div id="form-name">
+                        <label for="name">Имя</label>
+                        <input id="name" type="text" placeholder="Имя"> <br>
+                    </div>
+                    <div id="form-phone">
+                        <label for="phone">Телефон</label>
+                        <input id="phone" type="tel" placeholder="+7(777)777-77-77"> <br>
+                    </div>
+                    <input id="feedback-call-to-action" class="call-to-action" type="submit" value="Отправить"> <br>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <img class="full-width" src="../resources/map.png" alt="map">
+    </section>
+</main>
 
 <footer>
     <h2>Zoopsy</h2>
