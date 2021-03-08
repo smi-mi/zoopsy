@@ -1,0 +1,399 @@
+/* base style */
+
+body, html {
+    margin: 0;
+    background-color: #EFEFED;
+    color: #432A25;
+    font-size: 20px;
+    font-family: "Lora", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alegreya", serif;
+}
+
+/* header style */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #EFEFED;
+    width: 100%;
+}
+
+.header {
+    padding: 20px 50px;
+    margin: 0;
+}
+
+header h2 {
+    display: inline;
+    margin-right: 50px;
+    font-size: 1.8em;
+}
+
+header li {
+    padding: 0 20px;
+}
+
+#popup-header:after {
+    content: "";
+    margin:0.1em 0.5em;
+    display:inline-block;
+    border: 6px solid transparent;
+    border-top:7px solid #432A25;
+    border-bottom:0 none;
+}
+
+/* footer styles */
+
+footer {
+    padding-left: 50px;
+}
+
+/* main block styles */
+
+section {
+    padding: 50px 10px;
+}
+
+#main-info, #map {
+    padding: 0;
+}
+
+main h3 {
+    margin: 0 0 20px;
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.2em;
+    padding-left: 5px;
+}
+
+#service-list, #reviews, #feedback-form {
+    background-color: #FEFDF9;
+}
+
+/* main-info style */
+
+.main-info-header {
+    position: absolute;
+    top: 100px;
+    width: 70%;
+    padding-left: 30%;
+    padding-top: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 4em;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: #66B1CC;
+}
+#main-info h3 {
+    font-size: 1.8em;
+    font-weight: normal;
+    margin: 0;
+}
+#main-info p {
+    font-size: 0.8em;
+    margin: 0 0 50px;
+}
+
+/* service list styles */
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+.service-item {
+    padding: 10px;
+}
+#service-list img {
+    width: 300px;
+}
+
+/* special offer styles */
+
+#special-offer img {
+    width: 500px;
+}
+#special-offer {
+    text-align: center;
+}
+#special-offer a {
+    margin-bottom: 5px;
+}
+.special-offer-text {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: maroon;
+}
+
+/* reviews styles */
+
+#reviews {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.review {
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    margin: 0 20px;
+}
+.review img {
+    float: left;
+    margin-right: 10px;
+}
+.reviewer h4 {
+    margin: 0.5em 0 0;
+}
+.review h5 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: lighter;
+    color: #715752;
+}
+.review p {
+    margin: 0;
+    padding: 0.5em 0;
+    clear: both;
+}
+#reviews-see-more {
+    display: inline-block;
+}
+
+/* best offers styles */
+
+.horizontal-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left-best, #center-best, #right-best {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+    text-align: center;
+}
+#center-best {
+    width: 300px;
+}
+#left-best, #right-best {
+    width: 200px;
+}
+
+/* feedback form styles */
+
+#feedback-form h4 {
+    text-align: center;
+}
+#feedback-call-to-action {
+    border: none;
+    display: block;
+    font-size: 0.8em;
+    margin: 1em auto 0;
+}
+#form-name, #form-phone {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* about page styles */
+
+#about {
+    color: #715752;
+}
+#brief {
+    padding: 3em 0 0;
+    background-color: #FEFDF9;
+    display: flex;
+    align-items: center;
+}
+#brief img {
+    border-radius: unset;
+    width: 50%;
+}
+#brief-text {
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+#advantages {
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#advantages div {
+    text-align: center;
+}
+#advantages img {
+    width: 64px;
+}
+
+#stories {
+    background-color: #FEFDF9;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#stories p {
+    padding: 0 10px 10px;
+    text-align: center;
+}
+
+/* contacts page styles*/
+
+#contacts {
+    color: #715752;
+}
+#contacts-section {
+    padding-top: 100px;
+}
+#mailto-button {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+#contacts-section h4 {
+    text-align: center;
+}
+#contacts-section h3 {
+    background-color: #FEFDF9;
+    padding: 20px;
+}
+#contacts-container {
+    display: flex;
+}
+#contacts-container div {
+    flex-grow: 1;
+}
+#contacts-form form {
+    width: 50%;
+}
+#contacts-form {
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #FEFDF9;
+}
+
+/* common styles */
+
+form {
+    background-color: white;
+    width: 25%;
+    margin: 1em auto 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.call-to-action {
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #66B1CC;
+    color: white;
+    border-radius: 5px;
+}
+
+.full-width {
+    border-radius: unset;
+    width: 100%;
+}
+
+.horizontal-list {
+    display: inline;
+    padding: 0;
+}
+
+.horizontal-list li {
+    display: inline-block;
+}
+
+#popup-menu {
+    display: none;
+}
+
+#popup-menu h3 {
+    margin-bottom: 0.5em;
+}
+
+#popup-menu ul {
+    margin: 0 0 0.5em;
+    padding: 0;
+}
+
+#popup-menu li {
+    list-style-type: none;
+}
+
+a {
+    color: #432A25;
+    text-decoration-line: none;
+}
+
+#up-button {
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    background-color: #66B1CC;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 30px;
+}
+#up-button a {
+    color: white;
+}
+
+/* screen width adaptation */
+
+@media screen and (max-width: 980px) {
+    body, html {
+        font-size: 14px;
+    }
+    .main-info-header {
+        top: 80px;
+    }
+    #main-info p {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body, html {
+        font-size: 8px;
+    }
+    .header {
+        padding: 10px 20px;
+    }
+    .main-info-header {
+        top: 55px;
+    }
+    #main-info p {
+        margin-bottom: 10px;
+    }
+    .call-to-action {
+        padding: 5px;
+    }
+}

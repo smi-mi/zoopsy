@@ -1,10 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Main</title>
+    <title>Zoopsy</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<header>
+    <div class="header">
+        <h2><a href="main.html">Zoopsy</a></h2>
+        <ul class="horizontal-list">
+            <li id="popup-header"><a>Услуги</a></li>
+            <li><a>Помощь</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+
+    <div id="popup-menu">
+        <div class="column">
+            <h3>Коррекция поведения</h3>
+            <ul>
+                <li>нечистоплотность</li>
+                <li>страхи</li>
+                <li>агрессия</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Тренировки</h3>
+            <ul>
+                <li>базовые команды</li>
+                <li>трюки</li>
+                <li>подготовка к выставкам</li>
+                <li>обучение тренеров</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Адаптация</h3>
+            <ul>
+                <li>котёнок/щенок в новом доме</li>
+                <li>животное из приюта</li>
+                <li>дикое животное в доме</li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div id="top"></div>
+
+    <section id="main-info">
+        <div class="main-info-header">
+            <h1>Zoopsy</h1>
+            <h3>Услышьте своего питомца</h3>
+            <p>психологическая помощь питомцам и их хозяевам</p>
+            <a class="call-to-action">Подобрать специалиста</a>
+        </div>
+        <img class="full-width" src="../resources/main.jpg" alt="main">
+    </section>
+
+    <section id="service-list">
+        <h3>Наши услуги</h3>
+        <div class="services">
+            <div class="service-item">
+                <img src="../resources/services/cat-training.jpg" alt="cat-training">
+                <h4><a>Тренировки</a></h4>
+            </div>
+            <div class="service-item">
+                <img src="../resources/services/dog-calm.jpg" alt="dog-calm">
+                <h4><a>Коррекция поведения</a></h4>
+            </div>
+            <div class="service-item">
+                <img src="../resources/services/penguins.jpg" alt="penguins">
+                <h4><a>Адаптация</a></h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="special-offer">
+        <h3>Специальное предложение</h3>
+        <h4>Курс лекций по тренингу собак<span class="special-offer-text"> бесплатно </span>для новых клиентов!</h4>
+        <p><img src="../resources/dogs-training.jpeg" alt="dogs-training"></p>
+        <a class="call-to-action">Отправить заявку</a>
+    </section>
+
+    <section id="reviews">
+        <h3>Клиенты о нас</h3>
+        <ul class="horizontal-list">
+            <li class="review">
+                <img class="avatar" src="../resources/reviews/raccoon.jpg" alt="raccoon">
+                <div class="reviewer">
+                    <h4>Семья Петровых</h4>
+                    <h5>Енот Стёпа</h5>
+                </div>
+                <p>Благодаря Zoopsy ма наконец-то смогли отучить Стёпу стирать все наши вещи! Это просто невероятно!</p>
+            </li>
+            <li class="review">
+                <img class="avatar" src="../resources/reviews/pirate-parrot.jpg" alt="pirate-parrot">
+                <div class="reviewer">
+                    <h4>Пират Пэтчи</h4>
+                    <h5>Попугай Потти</h5>
+                </div>
+                <p>Я смог научить своего попугая петь и теперь мне не нужно платить за саундтреки. Спасибо Zoopsy!</p>
+            </li>
+        </ul>
+        <p id="reviews-see-more"><a>Смотреть все отзывы &gt;</a></p>
+    </section>
+
+    <section id="best-offers">
+        <h3>Лучшие предложения</h3>
+        <div class="horizontal-flex-container">
+            <div id="left-best">
+                <img src="../resources/best-offers/walking-cat.jpg" alt="walking-cat">
+                <p><a>Учим кота ходить на задних лапах &gt;</a></p>
+            </div>
+            <div id="center-best">
+                <img src="../resources/best-offers/singing-parrot.jpg" alt="signing-parrot">
+                <p><a>Учим попугая петь &gt;</a></p>
+            </div>
+            <div id="right-best">
+                <img src="../resources/best-offers/crocodile.jpg" alt="crocodile">
+                <p><a>Строим доверительные отношения с питомцем &gt;</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback-form">
+        <h3>Возникли вопросы?</h3>
+        <h4>Оставьте свой телефон, и мы вам перезвоним</h4>
+        <form>
+            <div id="form-name">
+                <label for="name">Имя</label>
+                <input id="name" type="text" placeholder="Имя"> <br>
+            </div>
+            <div id="form-phone">
+                <label for="phone">Телефон</label>
+                <input id="phone" type="tel" placeholder="+7(777)777-77-77"> <br>
+            </div>
+            <input id="feedback-call-to-action" class="call-to-action" type="submit" value="Отправить"> <br>
+        </form>
+    </section>
+
+    <section id="map">
+        <h3>Где нас найти</h3>
+        <h4>г. Санкт-Петербург, ул. Инженерная, д. 2</h4>
+        <img class="full-width" src="../resources/map.png" alt="map">
+    </section>
+
+    <div id="up-button"><a href="#top">^</a></div>
+
+</main>
+
+<footer>
+    <h2>Zoopsy</h2>
+</footer>
+
+<script src="js/main.js"></script>
 
 </body>
 </html>
